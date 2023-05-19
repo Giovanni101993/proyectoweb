@@ -1,3 +1,8 @@
+<style>
+    .navbar-header{
+    background-color: rgba(0, 0, 0, .2);
+}
+</style>
 <div class="header-nav animate-dropdown">
     <div class="container">
         <div class="yamm navbar navbar-default" role="navigation">

@@ -183,7 +183,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 			   <h3 class="new-product-title pull-left">Productos destacados</h3>
 				<ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
 					<li class="active"><a href="#all" data-toggle="tab">Todo</a></li>
-					<li><a href="#books" data-toggle="tab">Cascos</a></li>
+					<li><a href="#books" data-toggle="tab">Chaquetas</a></li>
 					<li><a href="#furniture" data-toggle="tab">Guantes</a></li>
 				</ul><!-- /.nav-tabs -->
 			</div>
@@ -369,7 +369,7 @@ while ($row=mysqli_fetch_array($ret))
 				<div class="row">
 					<div class="col-md-6">
 	                   <section class="section">
-	                   	<h3 class="section-title">Chaquetas</h3>
+	                   	<h3 class="section-title">Bell</h3>
 	                   	<div class="owl-carousel homepage-owl-carousel custom-carousel outer-top-xs owl-theme" data-item="2">
 	   
 <?php
@@ -420,7 +420,7 @@ while ($row=mysqli_fetch_array($ret))
 					</div>
 					<div class="col-md-6">
 						<section class="section">
-							<h3 class="section-title">Impermeables</h3>
+							<h3 class="section-title">Shark</h3>
 		                   	<div class="owl-carousel homepage-owl-carousel custom-carousel outer-top-xs owl-theme" data-item="2">
 	<?php
 $ret=mysqli_query($con,"select * from products where category=4 and subCategory=6");
